@@ -88,26 +88,26 @@ public class SubmitActivity extends AppCompatActivity {
                 else{
                     Toast.makeText(SubmitActivity.this,"this request was NOT successful",Toast.LENGTH_LONG).show();
                 }
-//
-//                final AlertDialog.Builder dialog = new AlertDialog.Builder(SubmitActivity.this);
-//                LayoutInflater inflater = getLayoutInflater();
-//
-//                View view = inflater.inflate(R.layout.fail, null);
-//                final Dialog dialogs = dialog.create();
-//
-//                dialogs.show();
+
+                final AlertDialog.Builder dialog = new AlertDialog.Builder(SubmitActivity.this);
+                LayoutInflater inflater = getLayoutInflater();
+
+                View view = inflater.inflate(R.layout.fail, null);
+                final Dialog dialogs = dialog.create();
+
+                dialogs.show();
             }
 
             @Override
             public void onFailure(Call<Void> call, Throwable t) {
-//
-//                final AlertDialog.Builder dialog = new AlertDialog.Builder(SubmitActivity.this);
-//                LayoutInflater inflater = getLayoutInflater();
-//
-//                View view = inflater.inflate(R.layout.success, null);
-//                final Dialog dialogs = dialog.create();
-//
-//                dialogs.show();
+
+                final AlertDialog.Builder dialog = new AlertDialog.Builder(SubmitActivity.this);
+                LayoutInflater inflater = getLayoutInflater();
+
+                View view = inflater.inflate(R.layout.success, null);
+                final Dialog dialogs = dialog.create();
+
+                dialogs.show();
             }
         });
         ImageView imageView = findViewById(R.id.backPress);

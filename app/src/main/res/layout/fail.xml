@@ -21,40 +21,21 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
+        app:cardElevation="5dp"
         android:layout_margin="10dp"
-        android:layout_marginTop="70dp"
-        app:cardCornerRadius="10dp"
-        app:cardElevation="5dp">
-
-        <ImageButton
-            android:id="@+id/img_cancel"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_gravity="left"
-            android:layout_marginLeft="350dp"
-            android:layout_marginTop="10dp"
-            android:src="@drawable/ic_baseline_cancel_24" />
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="Submission not Successful"
             android:layout_marginTop="50dp"
-            android:gravity="center_horizontal"
-            android:text="Are you sure?"
             android:textAlignment="center"
             android:textSize="30sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
 
-        <Button
-            android:id="@+id/btn_yes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="180dp"
-            android:text="Yes"
-            android:textAllCaps="false"
-            android:textColor="@color/yellow" />
 
 
     </androidx.cardview.widget.CardView>
