@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#414143"
-    android:orientation="vertical">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <include layout="@layout/toolbar" />
-
-    <TextView
-        android:id="@+id/txtproject"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="Project submission"
-        android:textAlignment="center"
-        android:textColor="@color/yellow"
-        android:textSize="20sp" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
